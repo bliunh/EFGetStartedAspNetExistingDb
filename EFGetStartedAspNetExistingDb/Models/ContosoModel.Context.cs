@@ -13,9 +13,9 @@ namespace EFGetStartedAspNetExistingDb.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Entities : DbContext
+    public partial class ContosoUniverisityDataEntities : DbContext
     {
-        public Entities()
+        public ContosoUniverisityDataEntities()
             : base("name=Entities")
         {
         }
