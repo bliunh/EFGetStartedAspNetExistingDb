@@ -13,7 +13,7 @@ namespace EFGetStartedAspNetExistingDb.Controllers
 {
     public class StudentsController : Controller
     {
-        private ContosoUniverisityDataEntities db = new ContosoUniverisityDataEntities();
+        private ContosoUniversityDataEntities db = new ContosoUniversityDataEntities();
 
         // GET: Students
         public ActionResult Index()

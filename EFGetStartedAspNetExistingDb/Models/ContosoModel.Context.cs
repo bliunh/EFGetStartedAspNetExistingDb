@@ -13,10 +13,10 @@ namespace EFGetStartedAspNetExistingDb.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ContosoUniverisityDataEntities : DbContext
+    public partial class ContosoUniversityDataEntities : DbContext
     {
-        public ContosoUniverisityDataEntities()
-            : base("name=ContosoUniverisityDataEntities")
+        public ContosoUniversityDataEntities()
+            : base("name=ContosoUniversityDataEntities")
         {
         }
     
